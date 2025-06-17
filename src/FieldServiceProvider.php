@@ -1,6 +1,6 @@
 <?php
 
-namespace NormanHuth\SecretField;
+namespace MlSolutions\SecretField;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

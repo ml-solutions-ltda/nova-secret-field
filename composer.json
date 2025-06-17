@@ -1,5 +1,5 @@
 {
-    "name": "norman-huth/nova-secret-field",
+    "name": "mlsolutions/nova-secret-field",
     "description": "This package provides a custom secret field that can be toggled to see its value.",
     "keywords": [
         "laravel",
@@ -9,11 +9,11 @@
         "nova-fields",
         "nova-4"
     ],
-    "homepage": "https://github.com/Muetze42/nova-secret-field",
+    "homepage": "https://github.com/ml-solutions-ltda/nova-secret-field",
     "support": {
-        "issues": "https://github.com/Muetze42/nova-secret-field/issues",
-        "source": "https://github.com/Muetze42/nova-secret-field",
-        "docs": "https://github.com/Muetze42/nova-secret-field#readme"
+        "issues": "https://github.com/ml-solutions-ltda/nova-secret-field/issues",
+        "source": "https://github.com/ml-solutions-ltda/nova-secret-field",
+        "docs": "https://github.com/ml-solutions-ltda/nova-secret-field#readme"
     },
     "license": "MIT",
     "authors": [
@@ -23,18 +23,18 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "laravel/nova": "^4.0.0"
+        "php": "^8.3",
+        "laravel/nova": "^5.0.0"
     },
     "autoload": {
         "psr-4": {
-            "NormanHuth\\SecretField\\": "src/"
+            "MlSolutions\\SecretField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NormanHuth\\SecretField\\FieldServiceProvider"
+                "MlSolutions\\SecretField\\FieldServiceProvider"
             ]
         }
     },

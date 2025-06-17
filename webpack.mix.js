@@ -7,5 +7,5 @@ mix
     .setPublicPath('dist')
     .js('resources/js/field.js', 'js')
     .vue({version: 3})
-    .nova('norman-huth/secret-field')
+    .nova('mlsolutions/secret-field')
     .disableNotifications()

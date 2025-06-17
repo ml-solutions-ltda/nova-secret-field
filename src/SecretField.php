@@ -1,6 +1,6 @@
 <?php
 
-namespace NormanHuth\SecretField;
+namespace MlSolutions\SecretField;
 
 use Laravel\Nova\Fields\Text as Field;
 
